@@ -3,3 +3,31 @@
 height: auto;
 display: block;
 }
+.decor-stomatolog{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.down{
+    background: red;
+}
+
+.decor-text{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.decor-title{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;  
+}
+
+.logo-footer{
+    padding-left: 12px;
+}
+
+.decor-footer{
+    background-color: rgb(215, 220, 224);
+}
