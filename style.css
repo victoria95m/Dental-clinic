@@ -1,7 +1,8 @@
-@media(max-width:700px){
+@media(max-width:800px){
     .decor-stomatolog{
         display: none;
     }
+
 }
 
 
@@ -38,4 +39,13 @@ display: block;
 
 .decor-footer{
     background-color: rgb(215, 220, 224);
+}
+
+.c-item{
+height: 480px;
+}
+
+.c-img{
+height: 100%;
+object-fit: cover;
 }
