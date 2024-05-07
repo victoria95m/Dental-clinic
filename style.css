@@ -30,6 +30,7 @@ display: block;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;  
+    color: rgb(0, 150, 136);
 }
 
 .logo-footer{
@@ -51,7 +52,7 @@ object-fit: cover;
 
 .cloud, .services{
     border-radius: 0 40px;
-    background-color:rgb(206, 231, 251);
+    background-color:rgb(195, 219, 242);
     text-align: center;
     padding: 18px;
     
@@ -59,7 +60,9 @@ object-fit: cover;
 
 .services{
     border-radius: 40px 40px;
-    margin: 12px;
+    margin: 25px 40px 15px;
+    
+    
 }
 
 .swrvices-links{
