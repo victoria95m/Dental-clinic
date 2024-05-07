@@ -110,3 +110,13 @@ ul .payment::before{
     justify-content: center;
   
   }
+
+  .click-me{
+    color: rgb(0, 150, 136);
+    text-decoration: underline;
+    
+  }
+  .click-me:hover{
+    color:rgb(0, 150, 136);
+    text-decoration: underline;
+  }
