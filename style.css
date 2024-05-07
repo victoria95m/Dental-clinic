@@ -1,11 +1,10 @@
 @media(max-width:800px){
-    .decor-stomatolog{
-        display: none;
+    .cards-service{
+        display: flex;
+        justify-content: center;
     }
 
 }
-
-
 
 .decor-clinic{
     width: 100%;
@@ -91,4 +90,15 @@ ul{
 ul .payment::before{
     content: '✓';
     color: rgb(0, 150, 136);
+  }
+
+  .meet-box{
+    background-color:rgb(86, 143, 187);
+    color: white;
+    padding: 15px;
+    line-height: 1;
+  }
+
+  .description{
+    line-height: 0;
   }
