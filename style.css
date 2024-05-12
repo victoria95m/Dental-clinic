@@ -183,4 +183,42 @@ ul .payment::before{
 }
 
 .card-title, .card-text, .list-group-item {
-    min-height: auto;  
+    min-height: auto; 
+ }
+.links-name{
+    color: rgb(0, 150, 136);
+    text-decoration: none;
+}
+
+.links-name:hover{
+    color: rgb(0, 150, 136);
+    text-decoration: underline;
+}
+
+.booking{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 19px 43px 19px 43px;
+    border: 1px solid rgb(86, 143, 187);
+    border-radius: 4px;
+    background-color:rgb(237, 239, 240);
+    color: rgb(0, 150, 136);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.book-now-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50px;
+}
+
+.booking:hover{
+    background-color: rgb(215, 220, 224);
+    color:rgb(0, 150, 136);
+    cursor: pointer;
+
+}
