@@ -106,12 +106,17 @@ ul .payment::before{
   }
 
   .map{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-  
-  }
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.iframe{
+  width: 80vw;
+  height: 60vh;
+}
 
   .click-me{
     color: rgb(0, 150, 136);
@@ -200,7 +205,7 @@ ul .payment::before{
     text-align: center;
     text-decoration: none;
     padding: 19px 43px 19px 43px;
-    border: 1px solid rgb(86, 143, 187);
+    border: 1px solid rgb(186, 181, 181);
     border-radius: 4px;
     background-color:rgb(237, 239, 240);
     color: rgb(0, 150, 136);
@@ -222,3 +227,4 @@ ul .payment::before{
     cursor: pointer;
 
 }
+
