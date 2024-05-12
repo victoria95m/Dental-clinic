@@ -21,16 +21,15 @@ display: block;
 }
 
 .decor-text{
-    font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .decor-title{
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;  
-    color: rgb(0, 150, 136);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+        color: rgb(0, 150, 136);
 }
 
 .logo-footer{
@@ -52,7 +51,7 @@ object-fit: cover;
 
 .cloud, .services{
     border-radius: 0 40px;
-    background-color:rgb(195, 219, 242);
+    background-color: #9cc4eb;
     text-align: center;
     padding: 18px;
     
@@ -67,13 +66,13 @@ object-fit: cover;
 
 .swrvices-links{
     text-decoration: none;
-    color: rgb(94, 138, 148);
+    color: rgb(93, 126, 134);
 }
 
 
 .swrvices-links:hover {
     text-decoration: underline;
-    color: rgb(136, 180, 190);
+    color: rgb(119, 162, 171);
 
 }
 .cosas{
@@ -123,3 +122,65 @@ ul .payment::before{
     color:rgb(0, 150, 136);
     text-decoration: underline;
   }
+
+  .social-media{
+    color: rgb(0, 150, 136);
+  }
+
+  .email{
+    color: rgb(0, 150, 136);
+    text-decoration: none;
+  }
+
+  .email:hover{
+    text-decoration: underline;
+  }
+
+  .decor-blue-bg{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+  }
+
+.card-body{
+    background-color: rgb(237, 239, 240);
+   
+}
+
+.decor-carousel{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.image-darken {
+    filter: brightness(85%) contrast(90%);
+
+}
+
+
+
+
+.contain-treatments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: stretch; 
+}
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover; 
+    width: 100%;
+}
+
+.card {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: auto;   
+    
+
+}
+
+.card-title, .card-text, .list-group-item {
+    min-height: auto;  

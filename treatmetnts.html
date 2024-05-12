@@ -7,10 +7,11 @@
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <!-- links for fonts -->
-<!-- Playfair and poppins -->
+<!--Lato and Merriweather -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
  <!-- link font awesome -->
 <!-- -->
 <script src="https://kit.fontawesome.com/418e872279.js" crossorigin="anonymous"></script>
@@ -22,23 +23,23 @@
     <div class="clinic">
         <nav class="navbar navbar-expand-sm navbar-light">
             <div class="container-fluid  mb-0 ">
-              <img src="images/logo-dos.png" width="200px" />
+              <a href="index.html"><img src="images/logo-dos.png" width="200px" /></a> 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav ">
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link decor-text" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link click-me" href="treatmetnts.html">Treatments</a>
+                    <a class="nav-link click-me decor-text" href="treatmetnts.html">Treatments</a>
                   </li>		
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link decor-text" href="about.html">About</a>
                   </li>		
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link decor-text" href="contact.html">Contact</a>
                   </li>	
                 </ul>		  
               </div>
@@ -48,39 +49,35 @@
 
 
         <div class="meet-box">
-          <h2 class="text-center mt-3 decor-title">
+          <h2 class="text-center mt-3 decor-blue-bg">
             Treatments
           </h2>
           <p class="text-center">Our skilled dental professionals are dedicated to your care and comfort</p>
         </div>
 
 
- <div class="container-xxl mt-3">
+ <div class="container-xxl mt-3 decor-text contain-treatments">
     <div class="row">
       
       <div class="col-lg-3 col-md-4 col-sm-6 col-12 m-0.5 p-2 cards-service">
   <div class="card" style="width: 18rem;">
     <img class="card-img-top" src="images/braces.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Orthodontic Services</h5>
-      <p class="card-text"><strong>Dr. Julio Ramos</strong> will be overseeing our orthodontic services, ensuring expert care and meticulous attention to detail</p>
+      <h5 class="card-title" id="orthodontic">Orthodontic Services</h5>
+      <p class="card-text"><strong>Dr. Julio Ramos</strong>  will be overseeing our orthodontic services, ensuring expert care and attention to detai</p>
     </div>
     <ul class="list-group list-group-flush description">
       <li class="list-group-item"><strong>Braces:</strong>
        <p class="text-muted lh-1">Traditional metal braces are the most common type for correcting tooth alignment and bite issues</p>
       </li>
       <li class="list-group-item"> <strong>Clear Aligners:</strong>
-        <p class="text-muted lh-1">Like Invisalign, these nearly invisible, removable devices gradually adjust teeth positioning</p>
+        <p class="text-muted lh-1">These clear, removable aligners subtly adjust teeth, similar to Invisalign</p>
       </li>
 
       <li class="list-group-item"><strong>Lingual Braces:</strong>
         <p class="text-muted lh-1">Similar to traditional braces but fitted on the inside of the teeth, making them less visible</p>
       </li>
     </ul>
-    <div class="card-body">
-      <a href="#" class=" btn btn-outline-primary btn-sm">About the Doctor</a>
-      <a href="#" class="btn btn-outline-primary btn-sm">Schedule Visit</a>
-    </div>
   </div>
 </div>
 
@@ -88,7 +85,7 @@
   <div class="card" style="width: 18rem;">
     <img class="card-img-top" src="images/protezi.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Prosthetic Dentistry</h5>
+      <h5 class="card-title" id="prosthetic">Prosthetic Dentistry</h5>
       <p class="card-text"><strong>Dr. Maria Sanchez</strong> will lead our prosthetic dentistry services, providing expert care with a focus on precision and quality
       </p>
     </div>
@@ -104,10 +101,6 @@
 
       </li>
     </ul>
-    <div class="card-body">
-      <a href="#" class=" btn btn-outline-primary btn-sm">About the Doctor</a>
-      <a href="#" class="btn btn-outline-primary btn-sm">Schedule Visit</a>
-    </div>
   </div>
   </div>
 
@@ -117,7 +110,7 @@
   <div class="card" style="width: 18rem;">
     <img class="card-img-top" src="images/estetica.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Cosmetic Dentistry</h5>
+      <h5 class="card-title" id="cosmetic">Cosmetic Dentistry</h5>
       <p class="card-text"><strong>Dr. Alejandro Martinez</strong> leads our cosmetic dentistry, focusing on expert care for beautiful, natural smiles</p>
     </div>
     <ul class="list-group list-group-flush">
@@ -125,16 +118,13 @@
         <p class="text-muted lh-1">Brightening discolored or stained teeth to enhance smile aesthetics</p>
       </li>
       <li class="list-group-item"><strong>Teeth Contouring and Reshaping:</strong>
-        <p class="text-muted lh-1">A process that involves removing small amounts of tooth enamel to change the shape, length, or surface of one or more teeth</p>
+        <p class="text-muted lh-1">
+          TThis procedure adjusts tooth enamel to reshape teeth</p>
       </li>
       <li class="list-group-item"><strong>Dental Bonding:</strong>
-        <p class="text-muted lh-1">A minimally invasive procedure using tooth-colored resin to fix decay, chips, and shape teeth in one visit</p>
+        <p class="text-muted lh-1">This quick procedure uses resin to fix and reshape teeth in one visit</p>
       </li>
     </ul>
-    <div class="card-body">
-      <a href="#" class=" btn btn-outline-primary btn-sm">About the Doctor</a>
-      <a href="#" class="btn btn-outline-primary btn-sm">Schedule Visit</a>
-    </div>
   </div>
   </div>
 
@@ -143,8 +133,8 @@
   <div class="card" style="width: 18rem;">
     <img class="card-img-top" src="images/pediatric-dental.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Pediatric Dentistry</h5>
-      <p class="card-text"><strong>Dr. Maria Sanchez</strong> is known for her gentle care and ability to make dental visits enjoyable for children, fostering a positive environment for young patients
+      <h5 class="card-title" id="pediatric">Pediatric Dentistry</h5>
+      <p class="card-text"><strong>Dr. Maria Sanchez</strong> makes dental visits enjoyable for children with her gentle care and positive environment
       </p>
     </div>
     <ul class="list-group list-group-flush">
@@ -155,13 +145,10 @@
         <p class="text-muted lh-1">Routine check-ups, teeth cleaning, fluoride treatments, and sealants to prevent decay</p>
       </li>
       <li class="list-group-item"><strong>Special Needs Dentistry:</strong>
-        <p class="text-muted lh-1">Customized care for children with special health care needs</p>
+        <p class="text-muted lh-1">This service provides customized medical care for children with special health care needs</p>
       </li>
     </ul>
-    <div class="card-body">
-      <a href="#" class=" btn btn-outline-primary btn-sm">About the Doctor</a>
-      <a href="#" class="btn btn-outline-primary btn-sm">Schedule Visit</a>
-    </div>
+    
   </div>
   </div>
 
@@ -187,7 +174,7 @@
            
              <p class="decor-text"><strong>Thelephone:</strong> +34 912 345 678</p>
              
-             <p class="decor-text"><strong>E-mail:</strong> info@toothfairy.com</p>
+             <p class="decor-text"><strong>E-mail: </strong><a href="mailto:info@toothfairy.com" class="email">info@toothfairy.com</a></p>
          
         </div> 
         <br/>
@@ -204,9 +191,9 @@
           <br/>
           <p class="decor-text"><strong>Social media:</strong></p>
           
-         <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"  style="margin: 10px;"></i></a>
-         <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" style="margin: 10px;"></i></a>
-         <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter" style="margin: 10px;"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram social-media"  style="margin: 10px;"></i></a>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook social-media" style="margin: 10px;"></i></a>
+          <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter social-media" style="margin: 10px;"></i></a>
           
         </div>
         <br/>
