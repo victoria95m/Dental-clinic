@@ -64,15 +64,15 @@ object-fit: cover;
     
 }
 
-.swrvices-links{
+.services-links{
     text-decoration: none;
-    color: rgb(93, 126, 134);
+    color: rgb(255, 255, 255);
 }
 
 
-.swrvices-links:hover {
+.services-links:hover {
     text-decoration: underline;
-    color: rgb(119, 162, 171);
+    color: rgb(255, 255, 255);
 
 }
 .cosas{
