@@ -7,7 +7,7 @@
 }
 
 .decor-clinic{
-    width: 100%;
+width: 100%;
 height: auto;
 display: block;
 }
@@ -162,9 +162,6 @@ ul .payment::before{
 
 }
 
-
-
-
 .contain-treatments {
     display: flex;
     flex-wrap: wrap;
@@ -226,6 +223,4 @@ ul .payment::before{
     background-color: rgb(215, 220, 224);
     color:rgb(0, 150, 136);
     cursor: pointer;
-
 }
-
